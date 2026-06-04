@@ -1,11 +1,17 @@
 # -*- coding: utf-8 -*-
-import sys
+import sys, os, time, ctypes, subprocess
+from ctypes import wintypes
 
 # Win32 API
-import win32api, win32gui
+import win32api, win32con, win32gui
 
 # PyQt6
-from PyQt6.QtWidgets import QApplication
+from PyQt6.QtWidgets import (
+    QApplication, QSystemTrayIcon, QMenu,
+    QInputDialog, QMessageBox, QWidget, QLabel
+)
+from PyQt6.QtGui import QIcon, QAction, QColor, QPainter
+from PyQt6.QtCore import Qt, QRect, QTimer
 import TouchEdgeControllerLib
 
 if __name__ == "__main__":

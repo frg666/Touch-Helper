@@ -1,0 +1,66 @@
+{
+  "gestures": {
+    "top1": {
+      "name": "顶部左侧",
+      "action": "win_tab",
+      "threshold": 25,
+      "direction": "down"
+    },
+    "top2": {
+      "name": "顶部中间",
+      "action_short": "win_m",
+      "threshold_short": 25,
+      "action_long": "win",
+      "threshold_long": 100,
+      "direction": "down",
+      "double_slide": true
+    },
+    "top3": {
+      "name": "顶部右侧",
+      "action": "win_a",
+      "threshold": 25,
+      "direction": "down"
+    },
+    "bottom1": {
+      "name": "底部左侧",
+      "action": "win_tab",
+      "threshold": 25,
+      "direction": "up"
+    },
+    "bottom2": {
+      "name": "底部中间",
+      "action_short": "win_m",
+      "threshold_short": 25,
+      "action_long": "win",
+      "threshold_long": 100,
+      "direction": "up",
+      "double_slide": true
+    },
+    "bottom3": {
+      "name": "底部右侧",
+      "action": "win_a",
+      "threshold": 25,
+      "direction": "up"
+    },
+    "left": {
+      "name": "左侧边缘",
+      "action_short": "close_window",
+      "threshold_short": 25,
+      "action_long": "minimize_window",
+      "threshold_long": 100,
+      "direction": "right",
+      "double_slide": true
+    },
+    "right": {
+      "name": "右侧边缘",
+      "action_short": "close_window",
+      "threshold_short": 25,
+      "action_long": "minimize_window",
+      "threshold_long": 100,
+      "direction": "left",
+      "double_slide": true
+    }
+  },
+  "close_zone_top": -1,
+  "app_overrides": {}
+}

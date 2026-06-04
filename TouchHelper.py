@@ -3,6 +3,7 @@ import sys, os, subprocess
 from PyQt6.QtWidgets import QApplication, QSystemTrayIcon, QMenu
 from PyQt6.QtGui import QIcon, QAction
 from PyQt6.QtCore import Qt
+import GestureConfigUI
 
 def is_process_running(name: str) -> bool:
     """检测进程是否存在"""
@@ -37,6 +38,7 @@ def kill_process_by_name(name: str):
 class TrayController:
     def __init__(self, app: QApplication):
         self.app = app
+        app.setQuitOnLastWindowClosed(False)
         self.tray = QSystemTrayIcon(QIcon(self.resource_path("th_enabled.ico")), app)
         self.tray.setToolTip("触控助手")
         self.menu = QMenu()
@@ -44,11 +46,13 @@ class TrayController:
         self.enable_action = QAction("启用触控助手")
         self.disable_action = QAction("禁用触控助手")
         self.restart_action = QAction("重启所有外部程序")
+        self.config_action = QAction("自定义手势配置")
         self.exit_action = QAction("退出")
 
         self.enable_action.triggered.connect(self.enable_manager)
         self.disable_action.triggered.connect(self.disable_manager)
         self.restart_action.triggered.connect(self.restart_all_exes)
+        self.config_action.triggered.connect(self.open_gesture_config)
         self.exit_action.triggered.connect(self.exit_app)
         self.icon_enabled = QIcon(self.resource_path("th_enabled.ico"))
         self.icon_disabled = QIcon(self.resource_path("th_disabled.ico"))
@@ -58,6 +62,8 @@ class TrayController:
         self.menu.addAction(self.enable_action)
         self.menu.addAction(self.disable_action)
         self.menu.addAction(self.restart_action)
+        self.menu.addSeparator()
+        self.menu.addAction(self.config_action)
         self.menu.addSeparator()
         self.menu.addAction(self.exit_action)
 
@@ -72,13 +78,13 @@ class TrayController:
         self.run_external_exe("TouchStateController.exe")
 
     def resource_path(self, relative_path):
-        if hasattr(sys, "_MEIPASS"):
-            return os.path.join(sys._MEIPASS, "TouchHelper/"+relative_path)
+        #if hasattr(sys, "_MEIPASS") :
+            #return os.path.join(sys._MEIPASS, "TouchHelper/"+relative_path)
         print(os.path.join(os.path.dirname(os.path.abspath(__file__)), relative_path))
         return os.path.join(os.path.dirname(os.path.abspath(__file__)), relative_path)
 
     def run_external_exe(self, exe_name):
-        exe_path = self.resource_path(exe_name)
+        exe_path = exe_name
         if os.path.exists(exe_path):
             if is_process_running(exe_name):
                 print(f"外部程序已在运行，准备重启: {exe_name}")
@@ -127,6 +133,12 @@ class TrayController:
         self.run_external_exe("TouchStateController.exe")
         self.tray.setIcon(self.icon_enabled)
         self.tray.showMessage("触控助手", "所有外部程序已重启", QSystemTrayIcon.MessageIcon.Information)
+
+    def open_gesture_config(self):
+        self.config_window = GestureConfigUI.GestureConfigUI()
+        self.config_window.show()
+        self.config_window.raise_()
+        self.config_window.activateWindow()
 
     def exit_app(self):
         kill_process_by_name("TouchEdgeController.exe")

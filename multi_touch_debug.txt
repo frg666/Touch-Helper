@@ -1,0 +1,672 @@
+2026-06-04 16:05:51,108 [INFO] 多点触控配置: {"enabled": true, "min_distance": 60, "gestures": {"two_finger_up": "none", "two_finger_down": "win", "two_finger_left": "none", "two_finger_right": "none", "three_finger_up": "win_d", "three_finger_down": "win_m", "three_finger_left": "alt_f4", "three_finger_right": "win_tab", "four_finger_up": "none", "four_finger_down": "none", "four_finger_left": "none", "four_finger_right": "none"}}
+2026-06-04 16:05:51,108 [INFO] MultiTouchEventFilter 已创建
+2026-06-04 16:05:51,108 [INFO] MultiTouchOverlay 已创建
+2026-06-04 16:05:51,122 [INFO] MultiTouchOverlay 已显示
+2026-06-04 16:05:51,319 [INFO] RegisterTouchWindow(hwnd=0x90924) → True
+2026-06-04 16:05:51,319 [INFO] nativeEventFilter 已安装
+2026-06-04 16:05:52,166 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:52,175 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:52,176 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:52,176 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:52,179 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:52,179 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:52,179 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:52,179 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,651 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,655 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,655 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,658 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,658 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,659 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,660 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,660 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,660 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,668 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,668 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,668 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,677 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,678 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,678 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,685 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,685 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,685 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:54,693 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,783 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,785 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,787 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,788 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,788 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,788 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,794 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,796 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,797 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,802 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,808 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,808 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,811 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,811 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,811 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,818 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,822 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,822 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,822 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,822 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,822 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:05:58,844 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,634 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,637 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,638 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,642 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,642 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,642 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,648 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,651 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,651 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,658 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,658 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,658 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,665 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,665 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,665 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,683 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,683 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,683 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,688 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,689 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,689 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,694 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,698 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,698 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
+2026-06-04 16:06:05,702 [ERROR] nativeEventFilter 异常: argument 1: TypeError: wrong type
+Traceback (most recent call last):
+  File "C:\TODO\touchHelper_DEV\TouchEdgeControllerLib.py", line 786, in nativeEventFilter
+    msg = ctypes.cast(message, ctypes.POINTER(wintypes.MSG)).contents
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Chino\AppData\Local\Programs\Python\Python312\Lib\ctypes\__init__.py", line 518, in cast
+    return _cast(obj, obj, typ)
+           ^^^^^^^^^^^^^^^^^^^^
+ctypes.ArgumentError: argument 1: TypeError: wrong type
